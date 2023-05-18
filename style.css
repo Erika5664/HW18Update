@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+  font-family: Arial, helvetica, sans-serif;
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #E38470;
+  color: dark-grey;
+  text-align: center;
+  Padding: 40px;
+}
+.topnav {
+  background-color: #E38470;
+  overflow: hidden;
+  height: 50px;
+  text-align: center;
+  
+}
+a {
+  float: Right;
+  color: dark-grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+/*change color of links on hover*/
+a.hover{
+  background-color: #ddd;
+  color: Blue;
+}
+/* Add a color to the active/current link*/
+.topnava.active {
+  background-color: #04AA6D;
+  color: white;
+}
+/*My UX Skills Section coded using CSS flex*/
+.flex-container{
+  display: flex;
+  flex-flow: row wrap;
+  Margin: auto auto 60px auto;
+  max-width: 1000px;
+  justify-content: center;
+}
+
+.flex-container>div{
+  background-color: #f1f1f1;
+  width: 40%;
+  margin: 20px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.hero-container_img{
+  width: 400;
+  height: 500;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;}
+  }
